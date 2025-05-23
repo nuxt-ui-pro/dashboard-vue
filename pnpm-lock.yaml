@@ -13,10 +13,10 @@ importers:
     dependencies:
       '@nuxt/ui-pro':
         specifier: ^3.1.2
-        version: 3.1.2(@babel/parser@7.27.2)(embla-carousel@8.6.0)(typescript@5.8.3)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))(vue-router@4.5.1(vue@3.5.14(typescript@5.8.3)))(vue@3.5.14(typescript@5.8.3))(zod@3.24.4)
+        version: 3.1.2(@babel/parser@7.27.2)(embla-carousel@8.6.0)(typescript@5.8.3)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))(vue-router@4.5.1(vue@3.5.14(typescript@5.8.3)))(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)
       '@unovis/vue':
-        specifier: ^1.5.1
-        version: 1.5.1(@unovis/ts@1.5.1)(vue@3.5.14(typescript@5.8.3))
+        specifier: ^1.5.2
+        version: 1.5.2(@unovis/ts@1.5.1)(vue@3.5.14(typescript@5.8.3))
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
@@ -27,8 +27,8 @@ importers:
         specifier: ^4.5.1
         version: 4.5.1(vue@3.5.14(typescript@5.8.3))
       zod:
-        specifier: ^3.24.4
-        version: 3.24.4
+        specifier: ^3.25.28
+        version: 3.25.28
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.2.4
@@ -997,10 +997,10 @@ packages:
   '@unovis/ts@1.5.1':
     resolution: {integrity: sha512-cNCVZUz3RagftEOw+HDvbbGTkmtpDNSv1Mw7C4wBBeRKQGzztI5TVL18IWFbKo/0VD6zP/jv+GKwJXZTGl6w0w==}
 
-  '@unovis/vue@1.5.1':
-    resolution: {integrity: sha512-JHpytN/usD4YzxVpSWTaqFMX667KjIYtjV/JK+iTAujn4a3xstAaySbZpP55qoANf9qEKUvM1EuRWs+qjqQGPQ==}
+  '@unovis/vue@1.5.2':
+    resolution: {integrity: sha512-NvMJu6dkF5zj7ovop+XTvD/yFBVJMUxQH4AFnYY3BzokvYyxluPnCjQpkResND5I/5ZKpC/LO051oLC9TPo6Jw==}
     peerDependencies:
-      '@unovis/ts': 1.5.1
+      '@unovis/ts': 1.5.2
       vue: ^3
 
   '@vitejs/plugin-vue@5.2.4':
@@ -2708,33 +2708,33 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.24.4:
-    resolution: {integrity: sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==}
+  zod@3.25.28:
+    resolution: {integrity: sha512-/nt/67WYKnr5by3YS7LroZJbtcCBurDKKPBPWWzaxvVCGuG/NOsiKkrjoOhI8mJ+SQUXEbUzeB3S+6XDUEEj7Q==}
 
 snapshots:
 
-  '@ai-sdk/provider-utils@2.2.8(zod@3.24.4)':
+  '@ai-sdk/provider-utils@2.2.8(zod@3.25.28)':
     dependencies:
       '@ai-sdk/provider': 1.1.3
       nanoid: 3.3.11
       secure-json-parse: 2.7.0
-      zod: 3.24.4
+      zod: 3.25.28
 
   '@ai-sdk/provider@1.1.3':
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/ui-utils@1.2.11(zod@3.24.4)':
+  '@ai-sdk/ui-utils@1.2.11(zod@3.25.28)':
     dependencies:
       '@ai-sdk/provider': 1.1.3
-      '@ai-sdk/provider-utils': 2.2.8(zod@3.24.4)
-      zod: 3.24.4
-      zod-to-json-schema: 3.24.5(zod@3.24.4)
+      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.28)
+      zod: 3.25.28
+      zod-to-json-schema: 3.24.5(zod@3.25.28)
 
-  '@ai-sdk/vue@1.2.12(vue@3.5.14(typescript@5.8.3))(zod@3.24.4)':
+  '@ai-sdk/vue@1.2.12(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)':
     dependencies:
-      '@ai-sdk/provider-utils': 2.2.8(zod@3.24.4)
-      '@ai-sdk/ui-utils': 1.2.11(zod@3.24.4)
+      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.28)
+      '@ai-sdk/ui-utils': 1.2.11(zod@3.25.28)
       swrv: 1.1.0(vue@3.5.14(typescript@5.8.3))
     optionalDependencies:
       vue: 3.5.14(typescript@5.8.3)
@@ -3229,12 +3229,12 @@ snapshots:
       pathe: 2.0.3
       std-env: 3.9.0
 
-  '@nuxt/ui-pro@3.1.2(@babel/parser@7.27.2)(embla-carousel@8.6.0)(typescript@5.8.3)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))(vue-router@4.5.1(vue@3.5.14(typescript@5.8.3)))(vue@3.5.14(typescript@5.8.3))(zod@3.24.4)':
+  '@nuxt/ui-pro@3.1.2(@babel/parser@7.27.2)(embla-carousel@8.6.0)(typescript@5.8.3)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))(vue-router@4.5.1(vue@3.5.14(typescript@5.8.3)))(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)':
     dependencies:
-      '@ai-sdk/vue': 1.2.12(vue@3.5.14(typescript@5.8.3))(zod@3.24.4)
+      '@ai-sdk/vue': 1.2.12(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)
       '@nuxt/kit': 3.17.3
       '@nuxt/schema': 3.17.3
-      '@nuxt/ui': 3.1.2(@babel/parser@7.27.2)(embla-carousel@8.6.0)(typescript@5.8.3)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))(vue-router@4.5.1(vue@3.5.14(typescript@5.8.3)))(vue@3.5.14(typescript@5.8.3))(zod@3.24.4)
+      '@nuxt/ui': 3.1.2(@babel/parser@7.27.2)(embla-carousel@8.6.0)(typescript@5.8.3)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))(vue-router@4.5.1(vue@3.5.14(typescript@5.8.3)))(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)
       '@standard-schema/spec': 1.0.0
       '@vueuse/core': 13.2.0(vue@3.5.14(typescript@5.8.3))
       consola: 3.4.2
@@ -3252,7 +3252,7 @@ snapshots:
       unplugin-auto-import: 19.2.0(@nuxt/kit@3.17.3)(@vueuse/core@13.2.0(vue@3.5.14(typescript@5.8.3)))
       unplugin-vue-components: 28.5.0(@babel/parser@7.27.2)(@nuxt/kit@3.17.3)(vue@3.5.14(typescript@5.8.3))
     optionalDependencies:
-      zod: 3.24.4
+      zod: 3.25.28
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -3293,7 +3293,7 @@ snapshots:
       - vue
       - vue-router
 
-  '@nuxt/ui@3.1.2(@babel/parser@7.27.2)(embla-carousel@8.6.0)(typescript@5.8.3)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))(vue-router@4.5.1(vue@3.5.14(typescript@5.8.3)))(vue@3.5.14(typescript@5.8.3))(zod@3.24.4)':
+  '@nuxt/ui@3.1.2(@babel/parser@7.27.2)(embla-carousel@8.6.0)(typescript@5.8.3)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))(vue-router@4.5.1(vue@3.5.14(typescript@5.8.3)))(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)':
     dependencies:
       '@iconify/vue': 4.3.0(vue@3.5.14(typescript@5.8.3))
       '@internationalized/date': 3.8.0
@@ -3340,7 +3340,7 @@ snapshots:
       vue-component-type-helpers: 2.2.10
     optionalDependencies:
       vue-router: 4.5.1(vue@3.5.14(typescript@5.8.3))
-      zod: 3.24.4
+      zod: 3.25.28
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -3874,7 +3874,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@unovis/vue@1.5.1(@unovis/ts@1.5.1)(vue@3.5.14(typescript@5.8.3))':
+  '@unovis/vue@1.5.2(@unovis/ts@1.5.1)(vue@3.5.14(typescript@5.8.3))':
     dependencies:
       '@unovis/ts': 1.5.1
       vue: 3.5.14(typescript@5.8.3)
@@ -5556,8 +5556,8 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod-to-json-schema@3.24.5(zod@3.24.4):
+  zod-to-json-schema@3.24.5(zod@3.25.28):
     dependencies:
-      zod: 3.24.4
+      zod: 3.25.28
 
-  zod@3.24.4: {}
+  zod@3.25.28: {}
